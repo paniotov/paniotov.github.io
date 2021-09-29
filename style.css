@@ -1,21 +1,26 @@
 .container {
   text-align: center;
   vertical-align: middle;
+}
 
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 56px;
+  margin: 1px;
 }
-.forms {
-  margin: 20px;
-}
+
 #search_form {
   width: 600px;
   height: 40px;
   margin: 20px 10px;
-  text-align: center;
+  padding-left: 10px;
+  text-align: left;
   border: solid 1px lightgrey;
   border-radius: 25px;
 }
 
 .button {
+  width: 30ex;
   font-size: 14px;
   color: grey;
   font-style: arial, sans-serif;
@@ -38,6 +43,6 @@
 text-align: right;
 }
 
-a < .page_links {
-  margin: 10px
+div > a {
+  margin: 5px;
 }
